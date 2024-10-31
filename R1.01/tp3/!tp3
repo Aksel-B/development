@@ -1,0 +1,87 @@
+# Résumé des Programmes Java - TP3
+
+Ce document présente une liste de programmes Java du TP3, chacun étant accompagné d'une brève description et d'un lien vers le fichier source.
+
+## 1. Echo.java
+Ce programme répète une chaîne saisie par l'utilisateur un nombre défini de fois.
+
+[Echo.java](Echo.java)
+
+---
+
+## 2. EuroToYen.java
+Ce programme convertit des montants en euros en yens selon un taux de change fixe.
+
+[EuroToYen.java](EuroToYen.java)
+
+---
+
+## 3. Factorielle.java
+Ce programme calcule la factorielle d'un nombre entier donné par l'utilisateur.
+
+[Factorielle.java](Factorielle.java)
+
+---
+
+## 4. HTversTTC1.java
+Ce programme convertit des montants hors taxes (HT) en montants toutes taxes comprises (TTC) pour un nombre spécifié de lignes.
+
+[HTversTTC1.java](HTversTTC1.java)
+
+---
+
+## 5. HTversTTC2.java
+Ce programme effectue également la conversion de montants HT en TTC, mais avec une logique différente.
+
+[HTversTTC2.java](HTversTTC2.java)
+
+---
+
+## 6. HeuresFranceVersUS.java
+Ce programme convertit une heure donnée en format 24 heures (France) au format 12 heures (US).
+
+[HeuresFranceVersUS.java](HeuresFranceVersUS.java)
+
+---
+
+## 7. HeuresUSVersFrance.java
+Ce programme convertit une heure donnée en format 12 heures (US) au format 24 heures (France).
+
+[HeuresUSVersFrance.java](HeuresUSVersFrance.java)
+
+---
+
+## 8. MomentJournee.java
+Ce programme détermine le moment de la journée (nuit, matinée, après-midi, soirée) en fonction de l'heure saisie.
+
+[MomentJournee.java](MomentJournee.java)
+
+---
+
+## 9. NbrMaj.java
+Ce programme compte le nombre de lettres majuscules dans une chaîne saisie par l'utilisateur.
+
+[NbrMaj.java](NbrMaj.java)
+
+---
+
+## 10. NbrMot.java
+Ce programme compte le nombre de mots dans une chaîne saisie par l'utilisateur.
+
+[NbrMot.java](NbrMot.java)
+
+---
+
+## 11. Remplacement.java
+Ce programme remplace tous les caractères d'une chaîne par un autre caractère spécifié par l'utilisateur.
+
+[Remplacement.java](Remplacement.java)
+
+---
+
+## 12. Tri.java
+Ce programme trie trois caractères saisis par l'utilisateur en fonction de leur ordre ASCII.
+
+[Tri.java](Tri.java)
+
+---
