@@ -17,7 +17,7 @@ class HTversTTC2 extends Program {
         for (int i = 0; i < nbr; i++) {
             double montantTTC = (n + 0.5) * TVA; // Calcul du montant TTC
             // Arrondi à deux décimales pour un affichage clair
-            println((n + 0.5) + " euros HT = " + Math.round(montantTTC * 100.0) / 100.0 + " euros TTC.");
+            println((n + 0.5) + " euros HT = " + (int)(montantTTC * 100) / 100.0 + " euros TTC.");
             n = n + 0.5; // Incrémentation de 0.5 pour le montant HT
         }
     }
