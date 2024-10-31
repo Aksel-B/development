@@ -1,6 +1,6 @@
 # Résumé des Programmes Java - TP1
 
-Ce document présente une liste de programmes Java, chacun étant accompagné d'une brève description et d'un lien vers le fichier source.
+Ce document présente une liste de programmes Java du TP1, chacun étant accompagné d'une brève description et d'un lien vers le fichier source.
 
 ## 1. Additionnatrice.java
 Ce programme additionne deux nombres entiers fournis par l'utilisateur.
