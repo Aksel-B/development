@@ -28,7 +28,7 @@ class Dessins extends Program {
         return chaine;  // Retourne la chaîne générée
     }
 
-     // Génère un triangle en forme de croix avec la taille 'Taille' et le caractère 'c'
+    // Génère un triangle en forme de croix avec la taille 'Taille' et le caractère 'c'
     String triangleCroix(int Taille, char c) {
         String chaine = "";
         for (int i = 0; i < Taille; i++) {
@@ -45,10 +45,38 @@ class Dessins extends Program {
         return chaine;  // Retourne la chaîne générée
     }
 
-    // Teste la méthode trianglePlein
-    void testTrianglePlein() {
-        assertEquals("*\n", trianglePlein(1, '*'));
-        assertEquals("o\noo\n", trianglePlein(2, 'o'));
-        assertEquals("+\n++\n+++\n", trianglePlein(3, '+'));
+    // Fonction pour afficher les figures demandées par l'exemple
+    void algorithm() {
+        // Demande à l'utilisateur de choisir la figure
+        println("Figure : ");
+        print("1 pour Triangle plein, 2 pour Triangle creux, 3 pour Triangle croix : ");
+        int figure = readInt();  // Lecture du choix de l'utilisateur
+
+        // Demande la taille et le caractère de la figure choisie
+        print("Taille : ");
+        int taille = readInt();  // Lecture de la taille de la figure
+        print("Caractere : ");
+        char carac = readChar();  // Lecture du caractère à utiliser pour dessiner la figure
+
+        // Affiche la figure en fonction du choix de l'utilisateur
+        if (figure == 1) {
+            println("Figure : 1");
+            println(trianglePlein(taille, carac));
+        } else if (figure == 2) {
+            println("Figure : 2");
+            println(triangleCreux(taille, carac));
+        } else if (figure == 3) {
+            println("Figure : 3");
+            println(triangleCroix(taille, carac));
+        } else {
+            println("Choix invalide.");
+        }
+    }
+
+    // Fonction pour tester les dessins
+    void test() {
+        assertEquals("+\n++\n+++\n++++\n+++++\n", trianglePlein(5, '+'));
+        assertEquals("O\nOO\nO O\nOOOO\n", triangleCreux(4, 'O'));
+        assertEquals("X...X\n.X.X.\n..X..\n.X.X.\nX...X\n", triangleCroix(5, 'X'));
     }
 }
